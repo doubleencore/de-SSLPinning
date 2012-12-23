@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CD57D81687B8A5002F13C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57D71687B8A5002F13C2 /* UIKit.framework */; };
+		69CD57DA1687B8A5002F13C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57D91687B8A5002F13C2 /* Foundation.framework */; };
+		69CD57DC1687B8A5002F13C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57DB1687B8A5002F13C2 /* CoreGraphics.framework */; };
+		69CD57E21687B8A5002F13C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57E01687B8A5002F13C2 /* InfoPlist.strings */; };
+		69CD57E41687B8A5002F13C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CD57E31687B8A5002F13C2 /* main.m */; };
+		69CD57E81687B8A5002F13C2 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CD57E71687B8A5002F13C2 /* DEAppDelegate.m */; };
+		69CD57EA1687B8A5002F13C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57E91687B8A5002F13C2 /* Default.png */; };
+		69CD57EC1687B8A5002F13C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57EB1687B8A5002F13C2 /* Default@2x.png */; };
+		69CD57EE1687B8A5002F13C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57ED1687B8A5002F13C2 /* Default-568h@2x.png */; };
+		69CD57F11687B8A5002F13C2 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CD57F01687B8A5002F13C2 /* DEViewController.m */; };
+		69CD57F41687B8A5002F13C2 /* DEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57F21687B8A5002F13C2 /* DEViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69CD57D31687B8A5002F13C2 /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CD57D71687B8A5002F13C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69CD57D91687B8A5002F13C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69CD57DB1687B8A5002F13C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69CD57DF1687B8A5002F13C2 /* SSLPinning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSLPinning-Info.plist"; sourceTree = "<group>"; };
+		69CD57E11687B8A5002F13C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69CD57E31687B8A5002F13C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69CD57E51687B8A5002F13C2 /* SSLPinning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLPinning-Prefix.pch"; sourceTree = "<group>"; };
+		69CD57E61687B8A5002F13C2 /* DEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEAppDelegate.h; sourceTree = "<group>"; };
+		69CD57E71687B8A5002F13C2 /* DEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEAppDelegate.m; sourceTree = "<group>"; };
+		69CD57E91687B8A5002F13C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		69CD57EB1687B8A5002F13C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		69CD57ED1687B8A5002F13C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69CD57EF1687B8A5002F13C2 /* DEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEViewController.h; sourceTree = "<group>"; };
+		69CD57F01687B8A5002F13C2 /* DEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
+		69CD57F31687B8A5002F13C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CD57D01687B8A5002F13C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CD57D81687B8A5002F13C2 /* UIKit.framework in Frameworks */,
+				69CD57DA1687B8A5002F13C2 /* Foundation.framework in Frameworks */,
+				69CD57DC1687B8A5002F13C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CD57C81687B8A5002F13C2 = {
+			isa = PBXGroup;
+			children = (
+				69CD57DD1687B8A5002F13C2 /* SSLPinning */,
+				69CD57D61687B8A5002F13C2 /* Frameworks */,
+				69CD57D41687B8A5002F13C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69CD57D41687B8A5002F13C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CD57D31687B8A5002F13C2 /* SSLPinning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CD57D61687B8A5002F13C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CD57D71687B8A5002F13C2 /* UIKit.framework */,
+				69CD57D91687B8A5002F13C2 /* Foundation.framework */,
+				69CD57DB1687B8A5002F13C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69CD57DD1687B8A5002F13C2 /* SSLPinning */ = {
+			isa = PBXGroup;
+			children = (
+				69CD57E61687B8A5002F13C2 /* DEAppDelegate.h */,
+				69CD57E71687B8A5002F13C2 /* DEAppDelegate.m */,
+				69CD57EF1687B8A5002F13C2 /* DEViewController.h */,
+				69CD57F01687B8A5002F13C2 /* DEViewController.m */,
+				69CD57F21687B8A5002F13C2 /* DEViewController.xib */,
+				69CD57DE1687B8A5002F13C2 /* Supporting Files */,
+			);
+			path = SSLPinning;
+			sourceTree = "<group>";
+		};
+		69CD57DE1687B8A5002F13C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69CD57DF1687B8A5002F13C2 /* SSLPinning-Info.plist */,
+				69CD57E01687B8A5002F13C2 /* InfoPlist.strings */,
+				69CD57E31687B8A5002F13C2 /* main.m */,
+				69CD57E51687B8A5002F13C2 /* SSLPinning-Prefix.pch */,
+				69CD57E91687B8A5002F13C2 /* Default.png */,
+				69CD57EB1687B8A5002F13C2 /* Default@2x.png */,
+				69CD57ED1687B8A5002F13C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69CD57D21687B8A5002F13C2 /* SSLPinning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CD57F71687B8A5002F13C2 /* Build configuration list for PBXNativeTarget "SSLPinning" */;
+			buildPhases = (
+				69CD57CF1687B8A5002F13C2 /* Sources */,
+				69CD57D01687B8A5002F13C2 /* Frameworks */,
+				69CD57D11687B8A5002F13C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLPinning;
+			productName = SSLPinning;
+			productReference = 69CD57D31687B8A5002F13C2 /* SSLPinning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CD57CA1687B8A5002F13C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = DoubleEncore;
+			};
+			buildConfigurationList = 69CD57CD1687B8A5002F13C2 /* Build configuration list for PBXProject "SSLPinning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69CD57C81687B8A5002F13C2;
+			productRefGroup = 69CD57D41687B8A5002F13C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CD57D21687B8A5002F13C2 /* SSLPinning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CD57D11687B8A5002F13C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CD57E21687B8A5002F13C2 /* InfoPlist.strings in Resources */,
+				69CD57EA1687B8A5002F13C2 /* Default.png in Resources */,
+				69CD57EC1687B8A5002F13C2 /* Default@2x.png in Resources */,
+				69CD57EE1687B8A5002F13C2 /* Default-568h@2x.png in Resources */,
+				69CD57F41687B8A5002F13C2 /* DEViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CD57CF1687B8A5002F13C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CD57E41687B8A5002F13C2 /* main.m in Sources */,
+				69CD57E81687B8A5002F13C2 /* DEAppDelegate.m in Sources */,
+				69CD57F11687B8A5002F13C2 /* DEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69CD57E01687B8A5002F13C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CD57E11687B8A5002F13C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69CD57F21687B8A5002F13C2 /* DEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CD57F31687B8A5002F13C2 /* en */,
+			);
+			name = DEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69CD57F51687B8A5002F13C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69CD57F61687B8A5002F13C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69CD57F81687B8A5002F13C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLPinning/SSLPinning-Prefix.pch";
+				INFOPLIST_FILE = "SSLPinning/SSLPinning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69CD57F91687B8A5002F13C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSLPinning/SSLPinning-Prefix.pch";
+				INFOPLIST_FILE = "SSLPinning/SSLPinning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CD57CD1687B8A5002F13C2 /* Build configuration list for PBXProject "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CD57F51687B8A5002F13C2 /* Debug */,
+				69CD57F61687B8A5002F13C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CD57F71687B8A5002F13C2 /* Build configuration list for PBXNativeTarget "SSLPinning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CD57F81687B8A5002F13C2 /* Debug */,
+				69CD57F91687B8A5002F13C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CD57CA1687B8A5002F13C2 /* Project object */;
+}
