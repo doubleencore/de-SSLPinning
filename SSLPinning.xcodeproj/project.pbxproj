@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693CF36F1689183600A34A7C /* secure.skabber.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 693CF36E1689183600A34A7C /* secure.skabber.com.cer */; };
 		69CD57D81687B8A5002F13C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57D71687B8A5002F13C2 /* UIKit.framework */; };
 		69CD57DA1687B8A5002F13C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57D91687B8A5002F13C2 /* Foundation.framework */; };
 		69CD57DC1687B8A5002F13C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57DB1687B8A5002F13C2 /* CoreGraphics.framework */; };
@@ -18,9 +19,11 @@
 		69CD57EE1687B8A5002F13C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57ED1687B8A5002F13C2 /* Default-568h@2x.png */; };
 		69CD57F11687B8A5002F13C2 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CD57F01687B8A5002F13C2 /* DEViewController.m */; };
 		69CD57F41687B8A5002F13C2 /* DEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69CD57F21687B8A5002F13C2 /* DEViewController.xib */; };
+		69CD57FB1687C1BE002F13C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CD57FA1687C1BE002F13C2 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		693CF36E1689183600A34A7C /* secure.skabber.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = secure.skabber.com.cer; sourceTree = "<group>"; };
 		69CD57D31687B8A5002F13C2 /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CD57D71687B8A5002F13C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		69CD57D91687B8A5002F13C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +40,7 @@
 		69CD57EF1687B8A5002F13C2 /* DEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEViewController.h; sourceTree = "<group>"; };
 		69CD57F01687B8A5002F13C2 /* DEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
 		69CD57F31687B8A5002F13C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEViewController.xib; sourceTree = "<group>"; };
+		69CD57FA1687C1BE002F13C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CD57FB1687C1BE002F13C2 /* Security.framework in Frameworks */,
 				69CD57D81687B8A5002F13C2 /* UIKit.framework in Frameworks */,
 				69CD57DA1687B8A5002F13C2 /* Foundation.framework in Frameworks */,
 				69CD57DC1687B8A5002F13C2 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693CF36D1689180700A34A7C /* Certs */ = {
+			isa = PBXGroup;
+			children = (
+				693CF36E1689183600A34A7C /* secure.skabber.com.cer */,
+			);
+			name = Certs;
+			sourceTree = "<group>";
+		};
 		69CD57C81687B8A5002F13C2 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 		69CD57D61687B8A5002F13C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69CD57FA1687C1BE002F13C2 /* Security.framework */,
 				69CD57D71687B8A5002F13C2 /* UIKit.framework */,
 				69CD57D91687B8A5002F13C2 /* Foundation.framework */,
 				69CD57DB1687B8A5002F13C2 /* CoreGraphics.framework */,
@@ -96,6 +110,7 @@
 		69CD57DE1687B8A5002F13C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				693CF36D1689180700A34A7C /* Certs */,
 				69CD57DF1687B8A5002F13C2 /* SSLPinning-Info.plist */,
 				69CD57E01687B8A5002F13C2 /* InfoPlist.strings */,
 				69CD57E31687B8A5002F13C2 /* main.m */,
@@ -164,6 +179,7 @@
 				69CD57EC1687B8A5002F13C2 /* Default@2x.png in Resources */,
 				69CD57EE1687B8A5002F13C2 /* Default-568h@2x.png in Resources */,
 				69CD57F41687B8A5002F13C2 /* DEViewController.xib in Resources */,
+				693CF36F1689183600A34A7C /* secure.skabber.com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +309,7 @@
 				69CD57F91687B8A5002F13C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
